@@ -1,7 +1,7 @@
 ## Vision - Do you see what I see?
 
 This is a demo for testing Vision and CoreML frameworks intrucuced by Apple for iOS 11. I wanted to check this out as 
-###### Now your device can tell you what it is seeing 😎 awesome, right?
+Now your device can tell you what it is seeing 😎 awesome, right?
 
 I think of many people that could use this framework whom have sight difficulties, this would be great help, Thanks Apple 🙌🏻
 
