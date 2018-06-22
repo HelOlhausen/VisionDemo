@@ -24,3 +24,5 @@ Last we get some results out of the request, at least we hope that's what's goin
 So as a result, Vision gives you back what it calls observations, what did Vision observed in this image. And these observations depend on what you asked Vision to do.
 
 So how do we do this? How do we make the device see for ourselves? Here is when the coding comes 👏🏻
+
+Also check this out https://developer.apple.com/videos/play/wwdc2017/506/
