@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7965E4771FCF2E7E00058AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965E4761FCF2E7E00058AAE /* AppDelegate.swift */; };
+		7965E4791FCF2E7E00058AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965E4781FCF2E7E00058AAE /* ViewController.swift */; };
+		7965E47C1FCF2E7E00058AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7965E47A1FCF2E7E00058AAE /* Main.storyboard */; };
+		7965E47E1FCF2E7E00058AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7965E47D1FCF2E7E00058AAE /* Assets.xcassets */; };
+		7965E4811FCF2E7E00058AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7965E47F1FCF2E7E00058AAE /* LaunchScreen.storyboard */; };
+		7965E4891FCF2EC500058AAE /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7965E4881FCF2EC500058AAE /* Resnet50.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7965E4731FCF2E7E00058AAE /* DoYouSee-Vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DoYouSee-Vision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7965E4761FCF2E7E00058AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7965E4781FCF2E7E00058AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7965E47B1FCF2E7E00058AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7965E47D1FCF2E7E00058AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7965E4801FCF2E7E00058AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7965E4821FCF2E7E00058AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7965E4881FCF2EC500058AAE /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../Resnet50.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7965E4701FCF2E7E00058AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7965E46A1FCF2E7E00058AAE = {
+			isa = PBXGroup;
+			children = (
+				7965E4751FCF2E7E00058AAE /* DoYouSee-Vision */,
+				7965E4741FCF2E7E00058AAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7965E4741FCF2E7E00058AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7965E4731FCF2E7E00058AAE /* DoYouSee-Vision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7965E4751FCF2E7E00058AAE /* DoYouSee-Vision */ = {
+			isa = PBXGroup;
+			children = (
+				7965E4881FCF2EC500058AAE /* Resnet50.mlmodel */,
+				7965E4761FCF2E7E00058AAE /* AppDelegate.swift */,
+				7965E4781FCF2E7E00058AAE /* ViewController.swift */,
+				7965E47A1FCF2E7E00058AAE /* Main.storyboard */,
+				7965E47D1FCF2E7E00058AAE /* Assets.xcassets */,
+				7965E47F1FCF2E7E00058AAE /* LaunchScreen.storyboard */,
+				7965E4821FCF2E7E00058AAE /* Info.plist */,
+			);
+			path = "DoYouSee-Vision";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7965E4721FCF2E7E00058AAE /* DoYouSee-Vision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7965E4851FCF2E7E00058AAE /* Build configuration list for PBXNativeTarget "DoYouSee-Vision" */;
+			buildPhases = (
+				7965E46F1FCF2E7E00058AAE /* Sources */,
+				7965E4701FCF2E7E00058AAE /* Frameworks */,
+				7965E4711FCF2E7E00058AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DoYouSee-Vision";
+			productName = "DoYouSee-Vision";
+			productReference = 7965E4731FCF2E7E00058AAE /* DoYouSee-Vision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7965E46B1FCF2E7E00058AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Helen Olhausen";
+				TargetAttributes = {
+					7965E4721FCF2E7E00058AAE = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7965E46E1FCF2E7E00058AAE /* Build configuration list for PBXProject "DoYouSee-Vision" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7965E46A1FCF2E7E00058AAE;
+			productRefGroup = 7965E4741FCF2E7E00058AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7965E4721FCF2E7E00058AAE /* DoYouSee-Vision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7965E4711FCF2E7E00058AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7965E4811FCF2E7E00058AAE /* LaunchScreen.storyboard in Resources */,
+				7965E47E1FCF2E7E00058AAE /* Assets.xcassets in Resources */,
+				7965E47C1FCF2E7E00058AAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7965E46F1FCF2E7E00058AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7965E4791FCF2E7E00058AAE /* ViewController.swift in Sources */,
+				7965E4891FCF2EC500058AAE /* Resnet50.mlmodel in Sources */,
+				7965E4771FCF2E7E00058AAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7965E47A1FCF2E7E00058AAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7965E47B1FCF2E7E00058AAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7965E47F1FCF2E7E00058AAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7965E4801FCF2E7E00058AAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7965E4831FCF2E7E00058AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7965E4841FCF2E7E00058AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7965E4861FCF2E7E00058AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F34X99CQG3;
+				INFOPLIST_FILE = "DoYouSee-Vision/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helenOlhausen.DoYouSee-Vision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7965E4871FCF2E7E00058AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F34X99CQG3;
+				INFOPLIST_FILE = "DoYouSee-Vision/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helenOlhausen.DoYouSee-Vision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7965E46E1FCF2E7E00058AAE /* Build configuration list for PBXProject "DoYouSee-Vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7965E4831FCF2E7E00058AAE /* Debug */,
+				7965E4841FCF2E7E00058AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7965E4851FCF2E7E00058AAE /* Build configuration list for PBXNativeTarget "DoYouSee-Vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7965E4861FCF2E7E00058AAE /* Debug */,
+				7965E4871FCF2E7E00058AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7965E46B1FCF2E7E00058AAE /* Project object */;
+}
